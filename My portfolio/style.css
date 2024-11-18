@@ -1,0 +1,145 @@
+
+body{ 
+    background-image: url(Background\ image.jpeg);
+    color: khaki;
+}
+/*header styles*/
+header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: lemonchiffon;
+    padding-top: 0px;
+    justify-content: center;
+    border-radius: 9px;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    text-align: center;
+}
+.navigation-bar{
+   text-align: center;
+}
+.navigation-bar ul li{
+    display: inline;
+} 
+.navigation-bar ul li a{
+    text-decoration: none;
+   color: lightblue;
+    padding: 0px 10px 0px 9px;
+}
+.container{
+font-size: medium;
+display: flex;
+text-align: center;
+margin: 22px;
+color: khaki;
+}
+
+.same-margin{
+margin: auto;
+}
+.div-1{
+width: 60%;
+text-align: center;
+padding: 0px 20px 15px 100px;
+}
+.div-1 h1 span{
+text-decoration: aqua;
+text-align: center;
+padding: 0px 0px;
+}
+.div-1 p{
+text-align: justify;
+color: cornflowerblue;
+font-size: 25px;
+}
+.div-2{
+width: 40%;
+display: flex;
+justify-content: center;
+}
+.div-2 img{
+border-radius: 8px;
+}
+#edu-section{
+color: khaki;
+display: flex;
+justify-content: center;
+}
+.edu-container{
+    text-align: center;
+    display: flex;
+    margin: 21px;
+    text-align: left;
+}
+.edu-container button{
+    text-align: center;
+    border-radius: 12px;
+  background-color:cyan ;
+  color: darkslategray;
+    border: 17px;
+    margin: 17px 25px;
+    padding: 10px 20px 10px 20px;
+}
+#skill-section{
+    display: flex;
+    justify-content: center;
+}
+.skill-container{
+    display: flex;
+ height: 60vh;
+ text-align: center;
+ margin: 20px;
+ text-align: left;
+}
+.skill-container button{
+     text-align: center;
+    border-radius: 12px;
+   background-color: aquamarine;
+   color: black;
+    border: 17px;
+    margin: 17px 25px;
+    padding: 10px 20px 10px 20px;
+
+}
+#hobbies-section{
+ display: flex;
+ justify-content: center;
+}
+.hobbies-container{
+    display: flex;
+ height: 60vh;
+ text-align: left;
+ margin: 22px;
+}
+.hobbies-container button{
+    text-align: center;
+    border-radius: 12px;
+  background-color:cornflowerblue;
+  color: bisque ;
+    border: 17px;
+    margin: 17px 25px;
+    padding: 10px 20px 10px 20px;
+
+}
+#certi-section{
+    display: flex;
+    justify-content: center;
+}
+.certi-container{
+    display: flex;
+    height: 60vh;
+    text-align: left;
+    margin: 20px;
+}
+.certi-container button{
+    text-align: center;
+    border-radius: 12px;
+    background-color: forestgreen;
+    color: greenyellow;
+    border: 17px;
+    margin: 17px 25px;
+    padding: 10px 20px 10px 20px;
+}
